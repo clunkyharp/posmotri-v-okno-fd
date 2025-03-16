@@ -121,17 +121,9 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover {
   text-decoration: underline;
 }
-
-.search-form__label-text:active {
-  text-decoration: none;
-}
-
-/* .search-form__label:hover {
-  text-decoration: underline 1px #fff;
-} */
 
 .search-form__textfield {
   border: 1px solid transparent;
@@ -220,17 +212,13 @@ ol {
   gap: 26px;
 }
 
-.content__list-container.custom-scrollbar {
-  overflow: auto;
-}
-
 .content__list-container {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
   height: 298px;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .content__list {
